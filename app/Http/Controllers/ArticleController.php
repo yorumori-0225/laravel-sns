@@ -65,7 +65,7 @@ class ArticleController extends Controller
         ];
     }
 
-    public function unlink(Request $request, Article $article)
+    public function unlike(Request $request, Article $article)
     {
         $article->likes()->detach($request->user()->id);
 

@@ -46,7 +46,7 @@ export default {
       });
     },
     tagsJson() {
-        retrun JSON.stringify(this.tags)
+      return JSON.stringify(this.tags)
     },
   },
 };
